@@ -1,3 +1,4 @@
+/*ELEMENTS*/
 *,
 *::before,
 *::after{
@@ -10,3 +11,42 @@ html {
     box-sizing: border-box;
     font-size: 62.5%;
 }
+body {
+    background-color: #FFFFFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+    background-color: #FFFFFF;
+    position: relative;
+    padding: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav ul {
+    list-style-type: none;
+    position: absolute;
+    top: 1rem;
+    left: 9rem;
+}
+nav li {
+    display: inline;
+    font-size: 2rem;
+    margin-right: 4rem;
+}
+header form {
+    display: inline;
+    font-size: 2rem;
+    width: 65%;
+    margin-right: 9rem;
+    ;
+}
+.cart button {
+
+}
+/*CLASSES*/
+.logo {
+    margin-right: 0 auto;
+    margin-left: 0 auto;
+    width: 65%;
+}
+
+/*LAYOUT*/

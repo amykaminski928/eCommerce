@@ -8,30 +8,32 @@
     <title>CARA  CARA</title>
 </head>
 <body>
-    <header>        
-        
-        <nav class="menu">    
+    <header>
+        <a name="top"></a>        
+        <nav>    
             <ul>
-                <li>HOME</li>
-                <li>ABOUT</li>
-                <li>PRODUCTS</li>
-                <li>CONTACT</li>
+                <li><a href="#top">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#products">PRODUCTS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
             </ul>
+        
+            <h1 class="logo">CARA <img src="./assets/icons8-pottery-96.png" alt="small image of orange vase-shaped pottery"/> CARA</h1>
+            <form method="get">
+                <input type="search" placeholder="" name="search">
+                <button type="submit" aria-labelledby= "search button" class="search-button">
+                <img src="./assets/1200px-Google_Magnifying_Glass.svg.png" />
+                </button>
+            </form>
+            <!--Not sure how to add a 'counter' and additional page for the cart so I am just 
+            entering the characters as placeholders for now.  This seems like something that
+        will come in the next set of lessons? -->
+            <form method="post" class="cart">
+                <button>CART (0)</button>
+            </form>
         </nav>
-        <h1>CARA <img src="./assets/icons8-pottery-96.png" alt="small image of orange vase-shaped pottery"/> CARA</h1>
-        <form method="get">
-            <input type="search" placeholder="" name="search">
-            <button type="submit" aria-labelledby= "search button" class="search-button">
-            <img src="./assets/1200px-Google_Magnifying_Glass.svg.png" />
-            </button>
-        </form>
-        <!--Not sure how to add a 'counter' and additional page for the cart so I am just 
-        entering the characters as placeholders for now.  This seems like something that
-    will come in the next set of lessons? -->
-        <form method="post" class="cart">
-            <button>CART (0)</button>
-        </form>
         <hr>
+
     </header>
     <main>
         <section class="home_image">
@@ -40,7 +42,7 @@
             <h1>...FROM THE GROUND UP</h1>
         </section>
         <section class="about">
-            <h1>ABOUT US</h1>
+            <h1 id="about">ABOUT US</h1>
             <hr>
             <p>Welcome to our pottery website! We are a team of passionate artists who create beautiful and unique pottery pieces for everyday use and decoration.
 
@@ -54,23 +56,23 @@
             <img src="./assets/Vase_Dame_2048x2048.jpg" alt="white vase on white background with white butterfly bush stem" />
         </section>
         <section class="products">
-            <h1>OUR PRODUCTS</h1>
+            <h1 id="products">OUR PRODUCTS</h1>
             <hr>
             <div class="product-card">
                 <!--mundo bowls-->
-                <div>
+                <a href="">
                     <img class="mb-1" src="./assets/tom-crew-7HuTGlUfQSo-unsplash.jpg" alt="set of three bowls one large and two small all white with speckle glaze" />
                     <h2 class="mb-1">MUNDO BOWLS</h2>
                     <h2 class="mb-1">$48.00</h2>
                     <hr class="mb-1">
                     <p class="mb-1">Pottery pieces can be found in a variety of shapes, sizes, and styles, ranging from simple and functional to intricate and ornamental. From cups and plates to vases and sculptures, pottery is a versatile and timeless art form that combines form and function in beautiful and unique ways. Whether used for everyday purposes or as decorative pieces, pottery adds a touch of beauty and craftsmanship to any home or space.</p>
                     <div class="product-buttons">
-                        <a>LEARN MORE</a>
+                        <a href="">LEARN MORE</a>
                         <button>ADD TO CART</button>
                     </div>
-                </div>
+                </a>
                  <!--natureza vase-->
-                <div>
+                <a href="">
                     <img class="mb-1" src="./assets/oriento-maVIpNNtmlQ-unsplash.jpg" alt="burgandy vase with slender neck topped with raw grey clay rim" />
                     <h2 class="mb-1">NATUREZA VASE</h2>
                     <h2 class="mb-1">$37.00</h2>
@@ -80,9 +82,9 @@
                         <a>LEARN MORE</a>
                         <button>ADD TO CART</button>
                     </div>
-                </div>
+                </a>
                  <!--feira bowls-->
-                <div>
+                <a href="">
                     <img class="mb-1" src="./assets/tom-crew-bgIO-u4GEfI-unsplash.jpg" alt="pair of cereal bowls all white with speckle glaze" />
                     <h2 class="mb-1">FEIRA BOWLS</h2>
                     <h2 class="mb-1">$29.00</h2>
@@ -92,9 +94,9 @@
                         <a>LEARN MORE</a>
                         <button>ADD TO CART</button>
                     </div>
-                </div>
+                </a>
                  <!--natureza pots-->
-                <div>
+                <a href="">
                     <img class="mb-1" src="./assets/tom-crew-3uwu5K0RtaE-unsplash.jpg" alt="pair of cansiters with lids grey canister with raw finish and lids lighter color with nearly white button handles" />
                     <h2 class="mb-1">NATUREZA POTS</h2>
                     <h2 class="mb-1">$59.00</h2>
@@ -104,9 +106,9 @@
                         <a>LEARN MORE</a>
                         <button>ADD TO CART</button>
                     </div>
-                </div>
+                </a>
                  <!--pedra vase-->
-                <div>
+                <a href="">
                     <img class="mb-1" src="./assets/linh-le-a0rE64YJDA4-unsplash.jpg" alt="small white egg shaped vase with eucalyptus branch inside" />
                     <h2 class="mb-1">PEDRA VASE</h2>
                     <h2 class="mb-1">$31.00</h2>
@@ -116,9 +118,9 @@
                         <a>LEARN MORE</a>
                         <button>ADD TO CART</button>
                     </div>
-                </div>
+                </a>
                  <!--viaja pots-->
-                <div>
+                <a href="">
                     <img class="mb-1" src="./assets/tom-crew-oiZAQvxTcYQ-unsplash.jpg" alt="pair of canisters with lids grey with speckle glaze" />
                     <h2 class="mb-1">VIAJA POTS</h2>
                     <h2 class="mb-1">$57.00</h2>
@@ -128,9 +130,9 @@
                         <a>LEARN MORE</a>
                         <button>ADD TO CART</button>
                     </div>
-                </div>
+                </a>
                  <!--servico plates-->
-                <div>
+                <a href="">
                     <img class="mb-1" src="./assets/tom-crew-YA2E3d7a9Wo-unsplash.jpg" alt="set of four pasta plates with white speckle glaze" />
                     <h2 class="mb-1">SERVIÇO PLATES</h2>
                     <h2 class="mb-1">$35.00</h2>
@@ -140,9 +142,9 @@
                         <a>LEARN MORE</a>
                         <button>ADD TO CART</button>
                     </div>
-                </div>
+                </a>
                  <!--campeao vase, need umlaut-->
-                <div>
+                <a href="">
                     <img class="mb-1" src="./assets/oriento-l0ah3UBLppo-unsplash.jpg" alt="blue vase with glossy glaze and long neck" />
                     <h2 class="mb-1">CAMPEÃO VASE</h2>
                     <h2 class="mb-1">$37.00</h2>
@@ -152,9 +154,9 @@
                         <a>LEARN MORE</a>
                         <button>ADD TO CART</button>
                     </div>
-                </div>
+                </a>
                  <!--troca bowls-->
-                <div>
+                <a href="">
                     <img class="mb-1" src="./assets/tom-crew-SITGdvztUdg-unsplash.jpg" alt="set of five cereal bowls all white with speckle glaze" />
                     <h2 class="mb-1">TROCA BOWLS</h2>
                     <h2 class="mb-1">$25.00</h2>
@@ -164,11 +166,11 @@
                         <a>LEARN MORE</a>
                         <button>ADD TO CART</button>
                     </div>
-                </div>
+                </a>
             </div>
         </section>
         <section class="contact-form">
-            <h1>CONTACT US</h1>
+            <h1 id="contact">CONTACT US</h1>
             <hr>
             <form method="post">
                 <fieldset>
@@ -187,7 +189,7 @@
         <div>
             <img class="social-icons-L" src="assets/icons8-youtube-96.png" alt="youtube playbutton icon" />
             <img class="social-icons-L" src="assets/icons8-facebook-96 (1).png" alt="facebook icon" />
-            <h1>CARA <img src="./assets/icons8-pottery-96 (1).png" alt="small image of white vase-shaped pottery"/> CARA</h1>
+            <h1><a href="#top">CARA <img src="./assets/icons8-pottery-96 (1).png" alt="small image of white vase-shaped pottery"/> CARA</a></h1>
             <img class="social-icons-R" src="assets/icons8-twitter-96.png" alt="twitter icon"/>
             <img class="social-icons-R" src="assets/icons8-instagram-96.png" alt="instagram icon"/>
         </div>
