@@ -53,12 +53,17 @@ header form {
 }
 
 /*CLASSES*/
-header h1 .logo {
+h1 .logo {
     display: flex;
-    position: relative;
+    
+    justify-content: center;
     margin-right: 0px;
     margin-left: auto;
-    width: 65%;
+    width: 60px;
+}
+h1.logo.img {
+    width: 30px;
+    height: 30px;
 }
 header .search {
     display: flex;
