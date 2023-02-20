@@ -15,15 +15,19 @@ body {
     background-color: #FFFFFF;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+hr{
+    border: 2px solid black;
+    width: 100%;
+}
 header {
     display: flex;
     flex-direction: row;
-    background-color: #FFFFFF;
-    position: relative;
-    text-align:match-parent;
+    background-color: #FFFFFF;    
     padding: 1rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
+    position: fixed;
+    width: 100%;
 }
 nav a {
     text-decoration: none;
@@ -31,9 +35,6 @@ nav a {
 }
 nav ul {
     list-style-type: none;
-    position: absolute;
-    top: 1rem;
-    left: 9rem;
 }
 nav li {
     display: inline;
@@ -45,17 +46,18 @@ header form {
     flex-direction: row-reverse;
     font-size: 2rem;
     width: 10%;
-    margin-right: 9rem;
+    margin-right: 3rem;
     ;
 }
 .cart button {
-
+    width: 5%;
+    height: auto;
 }
 
 /*CLASSES*/
-h1 .logo {
+header .logo {
     display: flex;
-    
+    align-items: center;
     justify-content: center;
     margin-right: 0px;
     margin-left: auto;
@@ -89,12 +91,16 @@ header .search-button {
     width: 20px;
     height: 20px;
 }
- .home_image {
-            
-    background-image:"earl-wilcox-y3W0CzO063w-unsplash-alt.jpg";
+
+.home img {
+    width: 100%;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position:left;
-    background-attachment:scroll;
+    background-position: left;
+    background-attachment: scroll;
     margin-left: 0px;
- }
+    height: auto;
+    display: flex;
+}
+ 
 /*LAYOUT*/
